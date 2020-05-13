@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#DCF4D8"
+    tools:context=".client.ClientActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/cart_btn_main"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F8F3A9"
+            android:text="Корзина"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/admin_btn_main"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F48888"
+            android:text="Админ"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B2D3A5"
+        android:text="Список товаров"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/main_frame" />
+</LinearLayout>
